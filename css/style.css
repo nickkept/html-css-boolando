@@ -68,11 +68,24 @@ header img{
   .img-containor{
     height: 90%;
 }
+
+
 .card img {
     width: 100%;
-    display: block;
+    display: inline-block;
+    position: relative;
   }
-
+ 
+  .card .img2{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.img-containor:hover .img2{
+    display: inline;
+}
   .discount-container {
     padding: .5rem;
     font-size: .8rem;
