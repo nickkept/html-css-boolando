@@ -8,13 +8,16 @@ header {
     background-color: #FF6801;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+header img{
+    width: auto;
+    height: 20px;
+}
 .container{
     width: 920px;
     margin: 0 auto;
     
     padding: 20px;
-    
+    background-color: bisque;
 }
 
 .nav-wrapper {
@@ -22,14 +25,37 @@ header {
     justify-content: space-between;
 }
 
-.links-container{
-    display: flex;
+.links-container ul li {
+    display: inline-block;
 }
 
+.links-container ul li a {
+    padding: .3rem .1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
 .logo-container{
     display: flex;
+    
 }
 
 .icon-container{
     display: flex;
+   
+
+}
+.icon{
+    color: white;
+}
+
+
+.first-row{
+    display: flex;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
 }
