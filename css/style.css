@@ -17,7 +17,7 @@ header img{
     margin: 0 auto;
     
     padding: 20px;
-    background-color: bisque;
+    ;
 }
 
 .nav-wrapper {
@@ -48,14 +48,83 @@ header img{
 .icon{
     color: white;
 }
+.card {
+    position: relative;
+    flex-basis: 30%;
+    flex-grow: 1;
+    
+  }
 
 
-.first-row{
+.card-container {
     display: flex;
+    
+    gap: 1rem;
+    padding-bottom: 4rem;
+  }
+  
+
+ 
+  .img-containor{
+    height: 90%;
 }
-
-
-img{
+.card img {
     width: 100%;
-    height: auto;
-}
+    display: block;
+  }
+
+  .discount-container {
+    padding: .5rem;
+    font-size: .8rem;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 70%;
+    
+  }
+
+  .suistainable-materials {
+    padding: .5rem;
+    font-size: .8rem;
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 70%;
+    right: 56%;
+    
+  }
+  
+  .suistainable-materials-last{
+    padding: .5rem;
+    font-size: .8rem;
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 70%;
+  }
+
+  .price{
+    color: red;
+    font-size: small;
+  }
+
+  .original-price{
+    text-decoration: line-through;
+    color: black;
+  }
+  
+  .favorites{
+    padding: .8rem;
+    font-size: .8rem;
+    
+    color: white;
+    position: absolute;
+    color: black;
+    top: 1%;
+    right: 0%;
+    background-color: white;
+
+  }
+  .description-container{
+    font-size: smaller;
+  }
